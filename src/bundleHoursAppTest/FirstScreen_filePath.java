@@ -45,8 +45,8 @@ public class FirstScreen_filePath {
     	URL url = new URL ("http://127.0.0.1:4723/wd/hub");
     	// created object for url class
     	
-		driver = new AndroidDriver<WebElement>(url, dc);
-		//set appium server details
+	driver = new AndroidDriver<WebElement>(url, dc);
+	//set appium server details
 		
         Thread.sleep(5000);
 }
